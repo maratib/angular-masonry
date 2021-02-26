@@ -1,0 +1,123 @@
+body {
+  background: #181c1e;
+  font-family: "Mulish", sans-serif;
+  color: #bcc;
+}
+
+.twitter__toolbar_logo {
+  padding: 2rem;
+  width: 200px;
+}
+
+.twitter__container {
+  color: white;
+  padding: 15px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.twitter__side_link-inner {
+  color: rgba(93, 96, 97, 0.3);
+}
+
+.twitter__sidebar {
+  z-index: 256660;
+  position: fixed;
+  top: 40%;
+  right: 2%;
+}
+
+.twitter__sidebar_link {
+  color: rgba(93, 96, 97, 0.3);
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+.twitter__sidebar_link-inner {
+  color: rgba(93, 96, 97, 0.3);
+}
+
+.twitter__points {
+  font-size: 56px;
+  font-weight: bold;
+  color: #e84970;
+}
+
+.twitter__points-text {
+  color: #e84970;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.twitter__reputation {
+  font-size: 56px;
+  color: #e5e5e5;
+  font-weight: bold;
+}
+
+.twitter__reputation-text {
+  font-size: 18px;
+  color: #e5e5e5;
+  font-weight: normal;
+}
+
+.twitter__influence {
+  font-size: 56px;
+  color: #6a91d8;
+  font-weight: bold;
+}
+
+.twitter__influence-text {
+  font-family: 18px;
+  color: #6a91d8;
+  font-weight: normal;
+}
+
+.twitter__links-panel {
+  border: solid 1px #2e3234;
+  border-radius: 4px;
+  padding: 0;
+  margin-top: 4.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.twitter__links-panel_active {
+  background: #2e3234;
+  padding: 16px 0;
+  text-align: center;
+}
+
+.twitter__links-panel_active-inner {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.twitter__links-panel_active-inner:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.twitter__links-panel_link {
+  padding: 16px 0;
+  text-align: center;
+}
+
+.twitter__links-panel_link-inner {
+  color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.twitter__links-panel_link-inner:hover {
+  color: rgba(255, 255, 255, 0.3);
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3N0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsbUJBQUE7RUFDQSxpQ0FBQTtFQUNBLFdBQUE7QUFDRjs7QUFJSTtFQUNFLGFBQUE7RUFDQSxZQUFBO0FBRE47O0FBS0U7RUFDRSxZQUFBO0VBQ0EsYUFBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7RUFDQSxRQUFBO0VBQ0EsU0FBQTtFQUdBLGdDQUFBO0FBSEo7O0FBTUU7RUFDRSw0QkFBQTtBQUpKOztBQU1FO0VBQ0UsZUFBQTtFQUNBLGVBQUE7RUFDQSxRQUFBO0VBQ0EsU0FBQTtBQUpKOztBQUtJO0VBQ0UsNEJBQUE7RUFDQSxpQkFBQTtFQUNBLG9CQUFBO0FBSE47O0FBSU07RUFDRSw0QkFBQTtBQUZSOztBQU1FO0VBQ0UsZUFBQTtFQUNBLGlCQUFBO0VBQ0EsY0FBQTtBQUpKOztBQUtJO0VBQ0UsY0FBQTtFQUNBLGVBQUE7RUFDQSxtQkFBQTtBQUhOOztBQU1FO0VBQ0UsZUFBQTtFQUNBLGNBQUE7RUFDQSxpQkFBQTtBQUpKOztBQUtJO0VBQ0UsZUFBQTtFQUNBLGNBQUE7RUFDQSxtQkFBQTtBQUhOOztBQU1FO0VBQ0UsZUFBQTtFQUNBLGNBQUE7RUFDQSxpQkFBQTtBQUpKOztBQUtJO0VBQ0UsaUJBQUE7RUFDQSxjQUFBO0VBQ0EsbUJBQUE7QUFITjs7QUFNRTtFQUNFLHlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxVQUFBO0VBQ0Esa0JBQUE7RUFDQSxxQkFBQTtBQUpKOztBQUtJO0VBQ0UsbUJBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7QUFITjs7QUFJTTtFQUNFLCtCQUFBO0VBQ0EscUJBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7RUFDQSxtQkFBQTtBQUZSOztBQUdRO0VBQ0UsK0JBQUE7QUFEVjs7QUFLSTtFQUNFLGVBQUE7RUFDQSxrQkFBQTtBQUhOOztBQUlNO0VBQ0UsK0JBQUE7RUFDQSxxQkFBQTtFQUNBLGVBQUE7RUFDQSxpQkFBQTtFQUNBLG1CQUFBO0FBRlI7O0FBR1E7RUFDRSwrQkFBQTtBQURWIiwiZmlsZSI6InN0eWxlcy5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gIGJhY2tncm91bmQ6ICMxODFjMWU7XG4gIGZvbnQtZmFtaWx5OiBcIk11bGlzaFwiLCBzYW5zLXNlcmlmO1xuICBjb2xvcjogI2JjYztcbn1cblxuLnR3aXR0ZXIge1xuICAmX190b29sYmFyIHtcbiAgICAmX2xvZ28ge1xuICAgICAgcGFkZGluZzogMnJlbTtcbiAgICAgIHdpZHRoOiAyMDBweDtcbiAgICB9XG4gIH1cblxuICAmX19jb250YWluZXIge1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBwYWRkaW5nOiAxNXB4O1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIC1tcy10cmFuc2Zvcm06IHRyYW5zbGF0ZVgoLTUwJSkgdHJhbnNsYXRlWSgtNTAlKTtcbiAgICAtd2Via2l0LXRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICB9XG5cbiAgJl9fc2lkZV9saW5rLWlubmVyIHtcbiAgICBjb2xvcjogcmdiYSg5MywgOTYsIDk3LCAwLjMpO1xuICB9XG4gICZfX3NpZGViYXIge1xuICAgIHotaW5kZXg6IDI1NjY2MDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA0MCU7XG4gICAgcmlnaHQ6IDIlO1xuICAgICZfbGluayB7XG4gICAgICBjb2xvcjogcmdiYSg5MywgOTYsIDk3LCAwLjMpO1xuICAgICAgZm9udC1zaXplOiAxLjJyZW07XG4gICAgICBwYWRkaW5nLWJvdHRvbTogMnJlbTtcbiAgICAgICYtaW5uZXIge1xuICAgICAgICBjb2xvcjogcmdiYSg5MywgOTYsIDk3LCAwLjMpO1xuICAgICAgfVxuICAgIH1cbiAgfVxuICAmX19wb2ludHMge1xuICAgIGZvbnQtc2l6ZTogNTZweDtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICBjb2xvcjogI2U4NDk3MDtcbiAgICAmLXRleHQge1xuICAgICAgY29sb3I6ICNlODQ5NzA7XG4gICAgICBmb250LXNpemU6IDE4cHg7XG4gICAgICBmb250LXdlaWdodDogbm9ybWFsO1xuICAgIH1cbiAgfVxuICAmX19yZXB1dGF0aW9uIHtcbiAgICBmb250LXNpemU6IDU2cHg7XG4gICAgY29sb3I6ICNlNWU1ZTU7XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgJi10ZXh0IHtcbiAgICAgIGZvbnQtc2l6ZTogMThweDtcbiAgICAgIGNvbG9yOiAjZTVlNWU1O1xuICAgICAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbiAgICB9XG4gIH1cbiAgJl9faW5mbHVlbmNlIHtcbiAgICBmb250LXNpemU6IDU2cHg7XG4gICAgY29sb3I6ICM2YTkxZDg7XG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgJi10ZXh0IHtcbiAgICAgIGZvbnQtZmFtaWx5OiAxOHB4O1xuICAgICAgY29sb3I6ICM2YTkxZDg7XG4gICAgICBmb250LXdlaWdodDogbm9ybWFsO1xuICAgIH1cbiAgfVxuICAmX19saW5rcy1wYW5lbCB7XG4gICAgYm9yZGVyOiBzb2xpZCAxcHggIzJlMzIzNDtcbiAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgcGFkZGluZzogMDtcbiAgICBtYXJnaW4tdG9wOiA0LjVyZW07XG4gICAgbWFyZ2luLWJvdHRvbTogMi41cmVtO1xuICAgICZfYWN0aXZlIHtcbiAgICAgIGJhY2tncm91bmQ6ICMyZTMyMzQ7XG4gICAgICBwYWRkaW5nOiAxNnB4IDA7XG4gICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAmLWlubmVyIHtcbiAgICAgICAgY29sb3I6IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC43KTtcbiAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xuICAgICAgICBsZXR0ZXItc3BhY2luZzogMXB4O1xuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBjb2xvcjogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjcpO1xuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICAgICZfbGluayB7XG4gICAgICBwYWRkaW5nOiAxNnB4IDA7XG4gICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAmLWlubmVyIHtcbiAgICAgICAgY29sb3I6IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC4zKTtcbiAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xuICAgICAgICBsZXR0ZXItc3BhY2luZzogMXB4O1xuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBjb2xvcjogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjMpO1xuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICB9XG59XG4iXX0= */
+
+/*# sourceMappingURL=styles.css.map*/
