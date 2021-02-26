@@ -1,0 +1,31 @@
+<div class="twitter__card mb-4">
+  <div class="d-flex align-items-center">
+    <img [src]="img" alt="" class="twitter__card_img" />
+    <div class="twitter__card_profile">
+      <p class="twitter__card_profile-name">{{ name }}</p>
+      <span class="twitter__card_profile-username">{{ tweeterHandle }}</span>
+    </div>
+  </div>
+  <div class="twitter__card_content">
+    {{ tweet }}
+    <img [src]="tweetImage">
+  </div>
+  <div class="twitter__card_footer">
+    <span class="twitter__card_footer-date">{{ dated | date:'h:m aaa LLL d, YYYY' }}</span>
+    <div class="twitter__card_footer-divider"></div>
+    <ul class="twitter__card_footer-icons">
+      <li class="twitter__card_footer-icons_icon">
+        <a routerLink="" title="Favorites" class="twitter__card_footer-icons_icon"><i class="far fa-heart"></i></a>
+      </li>
+      <li class="twitter__card_footer-icons_icon">
+        <a routerLink="" title="Comments" class="twitter__card_footer-icons_icon"><i class="far fa-comment-alt"></i></a>
+      </li>
+      <li class="twitter__card_footer-icons_icon">
+        <a routerLink="" title="Retweet" class="twitter__card_footer-icons_icon"><i class="fas fa-retweet"></i></a>
+      </li>
+      <li class="twitter__card_footer-icons_icon">
+        <a routerLink="" title="Exit" class="twitter__card_footer-icons_icon"><i class="far fa-share-square"></i></a>
+      </li>
+    </ul>
+  </div>
+</div>

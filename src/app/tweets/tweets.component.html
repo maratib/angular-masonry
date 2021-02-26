@@ -1,0 +1,74 @@
+<section class="twitter pt-5">
+  <!-- Twitter Sidebar -->
+  <div class="twitter__sidebar">
+    <ul class="list-unstyled p-0">
+      <li class="twitter__sidebar_link">
+        <a routerLink="" class="fa-stack fa-lg twitter__side_link-inner">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-user fa-stack-1x"></i>
+        </a>
+      </li>
+      <li class="twitter__sidebar_link">
+        <a routerLink="" class="fa-stack fa-lg twitter__side_link-inner">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-star fa-stack-1x"></i>
+        </a>
+      </li>
+      <li class="twitter__sidebar_link">
+        <a routerLink="" class="fa-stack fa-lg twitter__side_link-inner">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-mobile fa-stack-1x"></i>
+        </a>
+      </li>
+      <li class="twitter__sidebar_link">
+        <a routerLink="" class="fa-stack fa-lg twitter__side_link-inner">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-sign-out-alt fa-stack-1x"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <h1 class="twitter__points mb-0">2000</h1>
+        <p class="twitter__points-text">Points</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <h1 class="twitter__reputation mb-0">64</h1>
+        <p class="twitter__reputation-text">Reputation</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <h1 class="twitter__influence">99</h1>
+        <p class="twitter__influence-text">Influence</p>
+      </div>
+    </div>
+
+    <div class="row twitter__links-panel">
+      <div class="col-4 twitter__links-panel_active">
+        <a routerLink="tweets" class="text-uppercase twitter__links-panel_active-inner">team</a>
+      </div>
+      <div class="col-4 twitter__links-panel_link">
+        <a routerLink="" class="text-uppercase twitter__links-panel_link-inner">recent tweets</a>
+      </div>
+      <div class="col-4 twitter__links-panel_link">
+        <a routerLink="" class="text-uppercase twitter__links-panel_link-inner">most influencial</a>
+      </div>
+    </div>
+
+    <div id="masonry-grid" class="row p-0">
+      <div *ngFor="let tweet of tweetData" class="col-lg-3 pl-0 pr-5 grid-item">
+        <app-card [img]="tweet.image" [name]="tweet.name" [tweeterHandle]="tweet.handler" [tweet]="tweet.tweet"
+          [tweetImage]="tweet.tweetImage" [dated]="tweet.dated">
+        </app-card>
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+</section>

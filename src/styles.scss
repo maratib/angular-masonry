@@ -1,0 +1,110 @@
+body {
+  background: #181c1e;
+  font-family: "Mulish", sans-serif;
+  color: #bcc;
+}
+
+.twitter {
+  &__toolbar {
+    &_logo {
+      padding: 2rem;
+      width: 200px;
+    }
+  }
+
+  &__container {
+    color: white;
+    padding: 15px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  &__side_link-inner {
+    color: rgba(93, 96, 97, 0.3);
+  }
+  &__sidebar {
+    z-index: 256660;
+    position: fixed;
+    top: 40%;
+    right: 2%;
+    &_link {
+      color: rgba(93, 96, 97, 0.3);
+      font-size: 1.2rem;
+      padding-bottom: 2rem;
+      &-inner {
+        color: rgba(93, 96, 97, 0.3);
+      }
+    }
+  }
+  &__points {
+    font-size: 56px;
+    font-weight: bold;
+    color: #e84970;
+    &-text {
+      color: #e84970;
+      font-size: 18px;
+      font-weight: normal;
+    }
+  }
+  &__reputation {
+    font-size: 56px;
+    color: #e5e5e5;
+    font-weight: bold;
+    &-text {
+      font-size: 18px;
+      color: #e5e5e5;
+      font-weight: normal;
+    }
+  }
+  &__influence {
+    font-size: 56px;
+    color: #6a91d8;
+    font-weight: bold;
+    &-text {
+      font-family: 18px;
+      color: #6a91d8;
+      font-weight: normal;
+    }
+  }
+  &__links-panel {
+    border: solid 1px #2e3234;
+    border-radius: 4px;
+    padding: 0;
+    margin-top: 4.5rem;
+    margin-bottom: 2.5rem;
+    &_active {
+      background: #2e3234;
+      padding: 16px 0;
+      text-align: center;
+      &-inner {
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        &:hover {
+          color: rgba(255, 255, 255, 0.7);
+        }
+      }
+    }
+    &_link {
+      padding: 16px 0;
+      text-align: center;
+      &-inner {
+        color: rgba(255, 255, 255, 0.3);
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        &:hover {
+          color: rgba(255, 255, 255, 0.3);
+        }
+      }
+    }
+  }
+}
